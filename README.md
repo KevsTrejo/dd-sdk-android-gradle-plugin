@@ -22,7 +22,7 @@ You can configure the plugin by adding the following block at the end of your `b
 
 ```groovy
 datadog {
-    versionName = "1.3.0" // Optional, by default it is read from your Android plugin configuration's version name
+    versionName = "1.14.0" // Optional, by default it is read from your Android plugin configuration's version name
     serviceName = "my-service" // Optional, by default it is read from your Android plugin configuration's package name
     site = "US1" // Optional, can be "US1", "EU1" or "US1_FED", etc. (check `DatadogSite` documentation for the full list). Default is "US1"
     checkProjectDependencies = "warn" // Optional, can be "warn", "fail" or "none". Default is "fail". Will check if Datadog SDK is in the project dependencies.
